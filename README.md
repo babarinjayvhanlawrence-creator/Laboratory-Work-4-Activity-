@@ -2,6 +2,10 @@
 https://colab.research.google.com/drive/1XP8rIPUB1vzEiFdeT5rawF6hNdkJH4Eh?usp=sharing
 
 
+
+https://colab.research.google.com/github/babarinjayvhanlawrence-creator/Laboratory-Work-4-Activity-/blob/main/Activity4_Prediction_BABARIN.ipynb
+
+
 A. Model Evaluation Analysis
 1. What were the weakest-performing classes based on the confusion matrix?
 When I looked at the confusion matrix, I noticed that a lot of plant classes got zero correct predictions. These were African_Violet, Black_Bat_Flower, Bleeding_Heart, Caladium, Cockscomb, Coleus, Copperleaf, Fiddle_Leaf_Fig, Hydrangea, and Prayer_Plant. The main reason this happened is that when we split the dataset for validation, these classes ended up with no samples at all, so the model never got a chance to be tested on them.
