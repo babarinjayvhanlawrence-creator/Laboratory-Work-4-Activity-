@@ -1,10 +1,5 @@
 
-
-
-
-
-
-https://colab.research.google.com/github/babarinjayvhanlawrence-creator/Laboratory-Work-4-Activity-/blob/main/Activity4_Prediction_BABARIN.ipynb
+https://colab.research.google.com/drive/19JIXwDg7nUSCz4BTQ_51qSrQugGU0vMN?usp=sharing
 
 
 
