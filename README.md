@@ -14,6 +14,7 @@ A low recall basically means the model is missing plants that are actually there
 I think AUC is actually more honest than accuracy. Our accuracy looked really high at 95%, but that was kind of misleading because most of the classes with zero samples were just being ignored. When I looked at the AUC scores, they showed nan for those empty classes which revealed the real problem. A good AUC score means the model can actually tell the difference between classes, not just score high because some classes dominate the dataset.
 
 B. Model Improvement
+
 5. How did data augmentation affect validation accuracy?
 Data augmentation really helped because it made the model see the same images in different ways, like flipped, rotated, zoomed in, or with different contrast. This stopped the model from just memorizing the exact training images. I noticed that in some epochs the validation accuracy was even higher than training accuracy, which is actually a good thing because it means the model was learning to generalize instead of memorize.
 
